@@ -1,0 +1,17 @@
+# Google OAuth 2.0 Client ID (required for login)
+# Get it from: https://console.cloud.google.com/apis/credentials
+# 1. Create a new OAuth 2.0 Client ID (Web application)
+# 2. Add http://localhost:5173 and http://localhost:3000 to Authorized JavaScript origins
+# 3. Copy the Client ID here
+VITE_GOOGLE_AUTH_CLIENT_ID=680260034404-6q0flbmniqehcoao26kotkfeea9qfccl.apps.googleusercontent.com
+
+# Google Generative AI (Gemini) API Key
+# Get it from: https://aistudio.google.com/app/apikey
+# This is used to generate AI trip recommendations
+VITE_GOOGLE_GEMINI_AI_API_KEY=AIzaSyAbhZ4-y0p3iGr8zqP0yZ5dq-6Bwft6ORI
+
+# Google Places API Key
+# Get it from: https://console.cloud.google.com/apis/credentials
+# Enable Places API on your project
+# This is used for location autocomplete and search
+VITE_GOOGLE_PLACE_API_KEY=AIzaSyAbhZ4-y0p3iGr8zqP0yZ5dq-6Bwft6ORI
